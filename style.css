@@ -1,5 +1,9 @@
 
 /* GENERAL */
+:root {
+  font-size: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +15,10 @@ html,
 body {
   height: 100%;
   line-height: 1;
-  font-size: 16px;
-  color: #000;
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  color: #252b42;
+  font-weight: 500;
 }
 
 .wrapper {
@@ -47,4 +53,52 @@ ul,
 ol, 
 li {
   list-style: none;
+}
+
+/* HEADER */
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+
+}
+
+.header__container {
+  display: flex;
+  min-height: 10.4rem;
+  align-items: center;
+  background-color: orange;
+}
+
+.header__logo {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: inherit;
+}
+
+.header__menu {
+  margin: 0 0 0 133px;
+}
+
+.menu {
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item {
+
+}
+
+.menu__item:not(:last-child) {
+  margin: 0 21px 0 0;
+}
+
+.menu__link {
+  color: #737373;
+  line-height: 2.4rem;
+  font-weight: 600;
 }
