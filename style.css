@@ -29,6 +29,8 @@ body {
 ._container {
   max-width: 1046px;
   margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
 }
 
 h1,
@@ -62,7 +64,6 @@ li {
   left: 0;
   top: 0;
   z-index: 50;
-
 }
 
 .header__container {
@@ -70,6 +71,12 @@ li {
   min-height: 10.4rem;
   align-items: center;
   background-color: orange;
+}
+
+@media (max-width: 479px) {
+  .header__container {
+    min-height: 7rem;
+  }
 }
 
 .header__logo {
@@ -82,11 +89,31 @@ li {
   margin: 0 0 0 133px;
 }
 
+@media (max-width: 992px) {
+  .header__menu {
+    margin: 0 0 0 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__menu {
+    margin: 0 0 0 40px;
+  }
+}
+
+@media (max-width: 479px) {
+  .header__menu {
+    margin: 0 0 0 20px;
+  }
+}
+
 .menu {
+  padding: 5px 0;
 }
 
 .menu__list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .menu__item {
@@ -99,6 +126,12 @@ li {
 
 .menu__link {
   color: #737373;
-  line-height: 2.4rem;
+  line-height: 2.4;
   font-weight: 600;
+}
+
+@media (max-width: 479px) {
+  .menu__link {
+    font-size: 18px;
+  }
 }
