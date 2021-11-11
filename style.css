@@ -24,6 +24,8 @@ body {
 .wrapper {
   min-height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 ._container {
@@ -31,6 +33,19 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: content-box;
+}
+
+_ibg {
+  position: relative;
+}
+
+_ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 
 h1,
@@ -134,4 +149,40 @@ li {
   .menu__link {
     font-size: 18px;
   }
+}
+
+/* MAIN */
+.page {
+  flex: 1 1 auto;
+}
+
+.page__main-block {
+}
+.main-block {
+}
+.main-block__container {
+}
+.main-block__body {
+}
+.main-block__title {
+}
+.main-block__text {
+}
+.main-block__buttons {
+}
+.buttons {
+}
+.main-block__button {
+}
+.main-block__button_border {
+}
+.main-block__image {
+
+}
+
+/* FOOTER */
+.footer {
+  height: 50px;
+  background-color: lightpink;
+
 }
