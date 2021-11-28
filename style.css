@@ -191,6 +191,13 @@ li {
   font-size: 2rem;
   line-height: 150%;
 }
+
+@media (max-width: 479px) {
+  .main-block__text {
+    color: #585757;
+  }
+}
+
 .main-block__buttons {
   display: flex;
   flex-wrap: wrap;
@@ -213,12 +220,14 @@ li {
 
 @media (max-width: 479px) {
   .main-block__button {
-    flex: 1 1 auto;
+    flex: 1 1 100%;
   }
 }
 
-.main-block__button:not(:last-child) {
-  margin-right: 10px;
+@media (min-width: 479px) {
+  .main-block__button:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .main-block__button_orange {
