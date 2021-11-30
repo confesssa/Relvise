@@ -1,4 +1,4 @@
-
+/* добавить эслинт для порядка свойств CSS, ввести CSS-переменные */
 /* GENERAL */
 :root {
   font-size: 10px;
@@ -272,15 +272,6 @@ li {
 }
 
 /* SERVICES */
-.services {
-}
-
-.services__container {
-}
-
-.services__body {
-}
-
 @media (min-width: 670px) {
   .services__body {
     display: flex;
@@ -329,9 +320,6 @@ li {
 
 .item-service > *:not(:last-child) {
   margin: 0 0 10px 0;
-}
-
-.item-service__icon {
 }
 
 .item-service__title {
