@@ -157,6 +157,27 @@ li {
   z-index: 2;
 }
 
+/* HEADER-BLOCK */
+.header-block {
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.header-block__title {
+  font-size: 40px;
+  line-height: 142%;
+  font-weight: 700;
+}
+
+.header-block__title:not(:last-child)
+
+.header-block__sub-title {
+  color: #737373;
+  font-size: 14px;
+  line-height: 142%;
+}
+
+
 .main-block {
   position: relative;
 }
@@ -338,6 +359,28 @@ li {
 
 .item-service_modified > * {
   color: #fff;
+}
+
+/* ADVANTAGES */
+.page__advantages {
+}
+.advantages {
+}
+.advantages__contaner {
+}
+.advantages__header {
+}
+.advantages__body {
+}
+.advantages__column {
+}
+.advantages__item {
+}
+.advantages__icon {
+}
+.advantages__value {
+}
+.advantages__text {
 }
 
 /* FOOTER */
