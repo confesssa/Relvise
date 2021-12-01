@@ -486,11 +486,15 @@ li {
 }
 
 .item-practice {
+  display: flex;
+  flex-direction: column;
   background: #fff;
+  height: 100%;
 }
 
 .item-practice__content {
   padding: 30px;
+  flex: 1 1 auto;
 }
 
 .item-practice__link {
