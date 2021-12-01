@@ -381,10 +381,12 @@ li {
 .advantages__body {
   display: flex;
   margin: 0 -15px;
+  flex-wrap: wrap;
 }
 
 .advantages__column {
   padding: 0 15px;
+  margin: 0 0 30px 0;
   flex: 0 1 25%;
 }
 
@@ -393,6 +395,7 @@ li {
   text-align: center;
   padding: 30px;
   font-weight: 700;
+  height: 100%;
 }
 
 .advantages__item > *:not(:last-child) {
@@ -400,7 +403,12 @@ li {
 }
 
 .advantages__icon {
+  height: 48px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
+
 .advantages__value {
   font-size: 40px;
   line-height: 142%;
