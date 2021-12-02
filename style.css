@@ -697,6 +697,22 @@ li {
   }
 }
 
+/* CLIENTS */
+.clients {
+  padding: 58px 0;
+}
+
+.clients__items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.clients__item {
+  flex: 0 1 16.6667%;
+  text-align: center;
+}
+
 /* FOOTER */
 .footer {
   height: 50px;
