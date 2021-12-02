@@ -551,6 +551,82 @@ li {
   padding: 0 0 60% 0;
 }
 
+/* WHOWEARE */
+.page__whoweare {
+}
+.whoweare {
+  padding: 80px 0 130px 0;
+}
+.whoweare__container {
+}
+
+.whoweare__header {
+  margin: 0 0 100px 0;
+}
+
+.whoweare__body {
+  display: flex;
+}
+.whoweare__video {
+  flex: 0 0 57%;
+  position: relative;
+  padding: 0 0 42.25% 0;
+}
+
+.whoweare__video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.whoweare__content {
+  flex: 1 1 auto;
+  padding: 0 0 0 121px;
+}
+
+.whoweare__title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 142%;
+  letter-spacing: 0.2px;
+}
+
+.whoweare__title:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.whoweare__text {
+  line-height: 142%;
+  color: #737373;
+}
+
+.whoweare__top:not(:last-child) {
+  margin: 0 0 50px 0;
+}
+
+.whoweare__items {
+}
+
+.whoweare__item {
+}
+.item-whoweare {
+  display: flex;
+}
+
+.item-whoweare__icon {
+  flex: 0 0 32px;
+}
+
+.item-whoweare__body {
+}
+.item-whoweare__title {
+}
+.item-whoweare__text {
+}
+
 /* FOOTER */
 .footer {
   height: 50px;
