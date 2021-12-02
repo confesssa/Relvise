@@ -1,4 +1,4 @@
-/* добавить эслинт для порядка свойств CSS, ввести CSS-переменные */
+/* добавить эслинт для порядка свойств CSS, ввести CSS-переменные, понять, почему не отображается видео */
 /* GENERAL */
 :root {
   font-size: 10px;
@@ -102,6 +102,12 @@ li {
 
 .header__menu {
   margin: 0 0 0 133px;
+}
+
+@media (max-width: 1180px) {
+  .whoweare__content {
+    padding: 0 0 0 50px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -552,12 +558,8 @@ li {
 }
 
 /* WHOWEARE */
-.page__whoweare {
-}
 .whoweare {
   padding: 80px 0 130px 0;
-}
-.whoweare__container {
 }
 
 .whoweare__header {
@@ -566,7 +568,9 @@ li {
 
 .whoweare__body {
   display: flex;
+  align-items: flex-start;
 }
+
 .whoweare__video {
   flex: 0 0 57%;
   position: relative;
@@ -636,6 +640,7 @@ li {
 .item-whoweare__title:not(:last-child) {
   margin: 0 0 5px 0;
 }
+
 .item-whoweare__text {
   color: #737373;
   line-height: 142%;
@@ -643,6 +648,55 @@ li {
   text-overflow: ellipsis;
   overflow: hidden;
   width: 225px;
+}
+
+@media (max-width: 950px) {
+  .whoweare {
+    padding: 50px 0 50px 0;
+  }
+
+  .whoweare__header {
+    margin: 0 0 30px 0;
+  }
+
+  .whoweare__body {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+
+  .item-whoweare__body:not(:last-child) {
+    margin: 0 0 50px 0;
+  }
+
+  .whoweare__content {
+    padding: 0 0 0 0;
+  }
+
+  .whoweare__video {
+    padding: 0 0 56.25% 0;
+  }
+
+  .whoweare__video:not(:last-child) {
+    margin: 50px 0 0 0;
+  }
+
+  .whoweare__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whoweare {
+    padding: 20px 0 50px 0;
+  }
+
+  .whoweare__video:not(:last-child) {
+    margin: 30px 0 0 0;
+  }
+
+  .whoweare__top:not(:last-child) {
+    margin: 0 0 30px 0;
+  }
 }
 
 /* FOOTER */
