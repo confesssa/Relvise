@@ -1,4 +1,4 @@
-/* добавить эслинт для порядка свойств CSS, ввести CSS-переменные, понять, почему не отображается видео */
+/* медиа-запросы во всех секциях собрать в кучу, добавить эслинт для порядка свойств CSS, ввести CSS-переменные, понять, почему не отображается видео */
 /* GENERAL */
 :root {
   font-size: 10px;
@@ -559,6 +559,7 @@ li {
 
 /* WHOWEARE */
 .whoweare {
+  background: #fff;
   padding: 80px 0 130px 0;
 }
 
@@ -609,9 +610,6 @@ li {
 
 .whoweare__top:not(:last-child) {
   margin: 0 0 50px 0;
-}
-
-.whoweare__items {
 }
 
 .whoweare__item:not(:last-child) {
