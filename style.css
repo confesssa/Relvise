@@ -734,7 +734,17 @@ li {
 .page__subscribe {
 }
 .subscribe {
+  position: relative;
 }
+
+.subscribe:before {
+  content: "";
+  background: #252b42;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .subscribe__container {
 }
 .subscribe__body {
