@@ -699,18 +699,31 @@ li {
 
 /* CLIENTS */
 .clients {
-  padding: 58px 0;
+  padding: 50px 0;
+}
+
+@media (max-width: 767px) {
+  .clients {
+    padding: 30px 0;
+  }
 }
 
 .clients__items {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .clients__item {
   flex: 0 1 16.6667%;
   text-align: center;
+  padding: 8px 15px;
+  min-width: 140px;
+}
+
+.clients__item img {
+  max-width: 100%;
 }
 
 /* FOOTER */
