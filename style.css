@@ -855,6 +855,10 @@ li {
   padding: 50px 15px;
 }
 
+.item-getintouch_active {
+
+}
+
 .item-getintouch > *:not(:last-child) {
   margin: 0 0 15px 0;
 }
