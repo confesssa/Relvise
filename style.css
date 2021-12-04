@@ -855,10 +855,6 @@ li {
   padding: 50px 15px;
 }
 
-.item-getintouch_active {
-
-}
-
 .item-getintouch > *:not(:last-child) {
   margin: 0 0 15px 0;
 }
@@ -906,6 +902,17 @@ li {
 .item-getintouch__button:hover {
   background: #FF7B47;
   color: #fff;
+}
+
+.item-getintouch_active {
+  background: #252B42;
+  color: #fff;
+  padding: 80px 15px;
+}
+
+.item-getintouch_active > .item-getintouch__button {
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 /* FOOTER */
