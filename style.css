@@ -989,6 +989,44 @@ li {
 
 /* FOOTER */
 .footer {
-  height: 50px;
-  background-color: lightpink;
+}
+.footer__top {
+  padding: 50px 0;
+  background: #17213C;
+}
+
+.footer__main {
+  display: flex;
+}
+
+.footer__column {
+  flex: 0 1 20%;
+}
+.footer__label {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0 0 20px 0;
+}
+
+.footer__menu {
+}
+.menu-footer {
+}
+.menu-footer__list {
+}
+
+.menu-footer__item:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.menu-footer__link {
+  color: #fff;
+  letter-spacing: 0.2px;
+}
+
+.footer__bottom {
+}
+.footer__container {
 }
