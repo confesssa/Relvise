@@ -820,21 +820,11 @@ li {
 }
 
 /* GETINTOUCH */
-.page__getintouch {
-}
-
 .getintouch {
   padding: 80px 0 135px 0;
 }
-
-.getintouch__container {
-}
-
 .getintouch__header {
   margin: 0 0 80px 0;
-}
-
-.getintouch__body {
 }
 
 .getintouch__items {
