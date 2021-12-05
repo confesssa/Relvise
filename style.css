@@ -932,6 +932,61 @@ li {
   border: 1px solid #fff;
 }
 
+/* CONTACT */
+.contact {
+  background: #fff;
+  padding: 42px 0;
+}
+
+.contact__content {
+  padding: 0 0 20px 0;
+}
+
+@media (min-width: 767px) {
+  .contact__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact__content {
+    padding: 0 20px 0 0;
+  }
+}
+
+.contact__title {
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  font-size: 24px;
+  line-height: 133%;
+}
+
+.contact__title:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.contact__text {
+  color: #737373;
+  line-height: 142%;
+}
+
+.contact__button {
+  display: flex;
+  justify-content: center;
+  min-height: 58px;
+  border-radius: 5px;
+  background-color: #FF7B47;
+  align-items: center;
+  text-align: center;
+  padding: 5px 40px;
+  color: #fff;
+}
+
+.contact__button:hover {
+  background-color: #aa5330;
+  transition: background-color 0.3s ease 0s;
+}
+
 /* FOOTER */
 .footer {
   height: 50px;
