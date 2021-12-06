@@ -1031,7 +1031,27 @@ li {
   letter-spacing: 0.2px;
 }
 
+.footer__contacts {
+}
+.contacts-footer {
+}
+.contacts-footer__item {
+}
+.contacts-footer__item_phone {
+}
+.contacts-footer__item_map {
+}
+.contacts-footer__item_email {
+}
+
 .footer__bottom {
 }
 .footer__container {
+}
+
+.footer__copy {
+}
+.footer__social {
+}
+.social__item {
 }
