@@ -1,7 +1,10 @@
-/* добавить эслинт для порядка свойств CSS, ввести CSS-переменные, понять, почему не отображается видео */
+/* добавить эслинт для порядка свойств CSS, понять, почему не отображается видео */
 /* GENERAL */
 :root {
-  
+  --main-orange: #ff7b47;
+  --add-orange: #aa5330;
+  --main-green: #0d5c63;
+  --add-color-text: #737373;
 }
 
 * {
@@ -124,7 +127,7 @@ li {
 }
 
 .menu__link {
-  color: #737373;
+  color: var(--add-color-text);
   line-height: 2.4;
   font-weight: 600;
 }
@@ -192,7 +195,7 @@ li {
 }
 
 .header-block__sub-title {
-  color: #737373;
+  color: var(--add-color-text);
   font-size: 14px;
   line-height: 142%;
 }
@@ -227,7 +230,7 @@ li {
 }
 
 .main-block__text {
-  color: #737373;
+  color: var(--add-color-text);
   font-size: 20px;
   line-height: 150%;
 }
@@ -280,22 +283,22 @@ li {
 }
 
 .main-block__button_orange {
-  background: #ff7b47;
+  background: var(--main-orange);
   color: #fff;
 }
 
 .main-block__button_orange:hover {
   background: #fff;
-  color: #ff7b47;
+  color:  var(--main-orange);
 }
 
 .main-block__button_border {
-  color: #0d5c63;
-  border: 1px solid #0d5c63;
+  color: var(--main-green);
+  border: 1px solid var(--main-green);
 }
 
 .main-block__button_border:hover {
-  background: #0d5c63;
+  background: var(--main-green);
   color: #fff;
 }
 
@@ -375,11 +378,11 @@ li {
   letter-spacing: 0.1px;
 }
 .item-service__text {
-  color: #737373;
+  color: var(--add-color-text);
 }
 
 .item-service_modified {
-  background: #0D5C63;
+  background: var(--main-green);
 }
 
 .item-service_modified > * {
@@ -461,7 +464,7 @@ li {
 
 .advantages__text {
   letter-spacing: 0.1px;
-  color: #737373;
+  color: var(--add-color-text);
   font-size: 16px;
   line-height: 150%;
 }
@@ -548,7 +551,7 @@ li {
 }
 
 .item-practice__text {
-  color: #737373;
+  color: var(--add-color-text);
   line-height: 142%;
 }
 
@@ -611,7 +614,7 @@ li {
 
 .whoweare__text {
   line-height: 142%;
-  color: #737373;
+  color: var(--add-color-text);
 }
 
 .whoweare__top:not(:last-child) {
@@ -646,7 +649,7 @@ li {
 }
 
 .item-whoweare__text {
-  color: #737373;
+  color: var(--add-color-text);
   line-height: 142%;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -795,7 +798,7 @@ li {
   border-radius: 5px 0 0 5px;
   border: 1px solid #e6e6e6;
   background: #f9f9f9;
-  color: #737373;
+  color: var(--add-color-text);
   border-right: 0;
 }
 
@@ -804,7 +807,7 @@ li {
 }
 
 .subscribe__button {
-  background: #ff7b47;
+  background:  var(--main-orange);
   border: 1px solid #e6e6e6;
   border-radius: 0 5px 5px 0;
   display: flex;
@@ -819,7 +822,7 @@ li {
 }
 
 .subscribe__button:hover {
-  background: #aa5330;
+  background: var(--add-orange);
 }
 
 @media (max-width: 810px) {
@@ -910,8 +913,8 @@ li {
 
 .item-getintouch__button {
   border-radius: 5px;
-  border: 1px solid #FF7B47;
-  color: #FF7B47;
+  border: 1px solid  var(--main-orange);
+  color:  var(--main-orange);
   padding: 5px 20px;
   min-height: 44px;
   display: flex;
@@ -925,7 +928,7 @@ li {
 }
 
 .item-getintouch__button:hover {
-  background: #FF7B47;
+  background:  var(--main-orange);
   color: #fff;
 }
 
@@ -988,7 +991,7 @@ li {
 }
 
 .contact__text {
-  color: #737373;
+  color: var(--add-color-text);
   line-height: 142%;
 }
 
@@ -997,7 +1000,7 @@ li {
   justify-content: center;
   min-height: 58px;
   border-radius: 5px;
-  background-color: #FF7B47;
+  background-color:  var(--main-orange);
   align-items: center;
   text-align: center;
   padding: 5px 40px;
@@ -1005,7 +1008,7 @@ li {
 }
 
 .contact__button:hover {
-  background-color: #aa5330;
+  background-color: var(--add-orange);
   transition: background-color 0.3s ease 0s;
 }
 
@@ -1114,7 +1117,7 @@ li {
 }
 
 .footer__copy {
-  color: #737373;
+  color: var(--add-color-text);
   line-height: 171%;
 }
 
