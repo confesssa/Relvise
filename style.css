@@ -1,7 +1,7 @@
 /* добавить эслинт для порядка свойств CSS, ввести CSS-переменные, понять, почему не отображается видео */
 /* GENERAL */
 :root {
-  font-size: 10px;
+  
 }
 
 * {
@@ -16,7 +16,7 @@ body {
   height: 100%;
   line-height: 1;
   font-family: Montserrat;
-  font-size: 1.4rem;
+  font-size: 14px;
   color: #252b42;
   font-weight: 500;
   background: #fafafa;
@@ -84,12 +84,12 @@ li {
 
 .header__container {
   display: flex;
-  min-height: 10.4rem;
+  min-height: 104px;
   align-items: center;
 }
 
 .header__logo {
-  font-size: 2.4rem;
+  font-size: 24px;
   font-weight: 700;
   color: inherit;
 }
@@ -129,9 +129,14 @@ li {
   font-weight: 600;
 }
 
+.menu__link:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 479px) {
   .header__container {
-    min-height: 7rem;
+    min-height: 70px;
   }
 
   .header__menu {
@@ -215,7 +220,7 @@ li {
 }
 
 .main-block__title {
-  font-size: 5.8rem;
+  font-size: 58px;
   font-weight: 800;
   letter-spacing: 0.2px;
   line-height: calc(80 / 58 * 100%);
@@ -223,7 +228,7 @@ li {
 
 .main-block__text {
   color: #737373;
-  font-size: 2rem;
+  font-size: 20px;
   line-height: 150%;
 }
 
@@ -251,6 +256,7 @@ li {
   line-height: 150%;
   text-align: center;
   margin: 10px 0;
+  transition: all 0.3s ease 0s;
 }
 
 @media (max-width: 479px) {
@@ -278,9 +284,19 @@ li {
   color: #fff;
 }
 
+.main-block__button_orange:hover {
+  background: #fff;
+  color: #ff7b47;
+}
+
 .main-block__button_border {
   color: #0d5c63;
   border: 1px solid #0d5c63;
+}
+
+.main-block__button_border:hover {
+  background: #0d5c63;
+  color: #fff;
 }
 
 .main-block__image {
@@ -798,6 +814,12 @@ li {
   text-align: center;
   color: #fff;
   padding: 0 22px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.subscribe__button:hover {
+  background: #aa5330;
 }
 
 @media (max-width: 810px) {
@@ -988,14 +1010,9 @@ li {
 }
 
 /* FOOTER */
-.footer {
-}
 .footer__top {
   padding: 35px 0;
   background: #17213C;
-}
-
-.footer__main {
 }
 
 .footer__row {
@@ -1037,13 +1054,6 @@ li {
   margin: 0 0 20px 0;
 }
 
-.footer__menu {
-}
-.menu-footer {
-}
-.menu-footer__list {
-}
-
 .menu-footer__item:not(:last-child) {
   margin: 0 0 10px 0;
 }
@@ -1057,9 +1067,6 @@ li {
 
 .menu-footer__link:hover {
   text-decoration: underline;
-}
-
-.footer__contacts {
 }
 
 .contacts-footer {
@@ -1087,9 +1094,11 @@ li {
 .contacts-footer__item_phone {
   background: url(./assets/footer/footer1.svg) 0 0 no-repeat;
 }
+
 .contacts-footer__item_map {
   background: url(./assets/footer/footer2.svg) 0 0 no-repeat;
 }
+
 .contacts-footer__item_email {
   background: url(./assets/footer/footer3.svg) 0 0 no-repeat;
 }
