@@ -23,6 +23,7 @@ body {
   color: #252b42;
   font-weight: 500;
   background: #fafafa;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
